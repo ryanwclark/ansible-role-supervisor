@@ -1,0 +1,33 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: supervisor
+  author: ryanwclark
+  description: Supervisor (process state manager) for Linux.
+  issue_tracker_url: https://github.com/ryanwclark/ansible-role-supervisor/issues
+  company: "Accent"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.4
+  platforms:
+    - name: EL
+      versions:
+        - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+  galaxy_tags:
+    - system
+    - server
+    - process
+    - supervisor
+    - supervisord
+    - manager
+    - init
+    - docker
